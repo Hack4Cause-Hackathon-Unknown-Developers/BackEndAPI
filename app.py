@@ -17,7 +17,7 @@ product_ref = db.collection('products')
 
 @app.route('/')
 def index():
-    response =  jsonify("Hello World")
+    response =  jsonify("Hello World Route working All good to go")
     return response
 
 contractors = db.collection('contractors')
