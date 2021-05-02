@@ -37,7 +37,7 @@ def sign_up():
     except Exception as e:
         return f"An Error Occured: {e}",404
     
-
+#for login
 @app.route('/login',methods=['GET','POST'])
 @cross_origin()
 def login():
@@ -74,6 +74,7 @@ def getAllLabourers():
     except Exception as e:
         return f"An Error Occured: {e}", 500
 
+#for fetching 
 @app.route('/getALabourer')
 @cross_origin()
 def specificOrder():
